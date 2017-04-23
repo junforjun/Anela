@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+   <script src="http://cdn.alloyui.com/3.0.1/aui/aui-min.js"></script>
+	<link href="http://cdn.alloyui.com/3.0.1/aui-css/css/bootstrap.min.css" rel="stylesheet"></link>
+    <title>生花のウエディングブーケ｜ウエディングブーケやウエルカムボード、ヘッドドレスならanela（アネラ）</title>
+	<script src="css/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	<link href="css/index.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+	YUI().use(
+  'aui-scheduler',
+  function(Y) {
+    var events = [
+      {
+        content: 'Partial Lunar Eclipse',
+        endDate: new Date(2013, 3, 25, 5),
+        startDate: new Date(2013, 3, 25, 1)
+      },
+      {
+        color: "#8d8",
+        content: 'Earth Day Lunch',
+        disabled: true,
+        endDate: new Date(2013, 3, 22, 13),
+        meeting: true,
+        reminder: true,
+        startDate: new Date(2013, 3, 22, 12)
+      },
+      {
+        content: "Weeklong",
+        endDate: new Date(2013, 3, 27),
+        startDate: new Date(2013, 3, 21)
+      }
+    ];
+
+    var agendaView = new Y.SchedulerAgendaView();
+    var dayView = new Y.SchedulerDayView();
+    var weekView = new Y.SchedulerWeekView();
+    var monthView = new Y.SchedulerMonthView();
+
+    var eventRecorder = new Y.SchedulerEventRecorder();
+
+    new Y.Scheduler(
+      {
+        activeView: weekView,
+        boundingBox: '#myScheduler',
+        date: new Date(2013, 3, 25),
+        eventRecorder: eventRecorder,
+        items: events,
+        render: true,
+        views: [dayView, weekView, monthView, agendaView]
+      }
+    );
+  }
+);
+	</script>
+</head>
+
+
+<body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+           <ul class="nav navbar-nav navbar-right">
+                  <li>
+                        <a href="login.html">ログイン</a>
+                   </li>
+                   <li>
+                        <a href="#">会員加入</a>
+                   </li>
+                   <li>
+                        <a href="#">お問い合せ</a>
+                   </li>
+                    <li>
+                        
+							<div class="input-group input-group-sm">
+								<input type="text" class="form-control form-search" placeholder="商品検索" aria-describedby="sizing-addon3">
+								<button type="submit" class="btn btn-default btn-sm form-search" >検索</button>
+							</div>
+							
+						
+                    </li>
+                </ul>
+         
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+	
+   <!-- Page Content -->
+    <div class="container">
+		<br>
+       	<div class="row">
+        	<center><span class="mainTitle h1">　 Anela　</span></center>
+		</div>	
+		<div class="row">
+        	<center><span class="mainTitle h3"> 　アネラ　</span></center>
+		</div>	
+    	<div class="row"> 　</div>
+     	<hr>
+      	<div class="">
+      	<ul class="nav nav-pills">
+			  <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GIFT<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="product-list.html">キャンバスアートフラワー</a></li>
+					<li><a href="product-list.html">アレンジ（プリザーブドフラワー）</a></li>
+					<li><a href="product-list.html">アレンジ（生花）</a></li>
+					<li><a href="product-list.html">花束</a></li>
+					<li><a href="product-list.html">動物シリーズ</a></li>
+				  </ul>
+            	</li>
+			   <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">WEDDING<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="product-list.html">ブーケ（プリザーブドフラワー）</a></li>
+					<li><a href="product-list.html">ブーケ（アート）</a></li>
+					<li><a href="product-list.html">ブーケ（生花）</a></li>
+					<li><a href="product-list.html">メインテーブルフラワー</a></li>
+					<li><a href="product-list.html">ゲストテーブルフラワー</a></li>
+					<li><a href="product-list.html">ヘッドドレス</a></li>
+					<li><a href="product-list.html">ウエルカムボード</a></li>
+				  </ul>
+              </li>
+			   <li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">ビジネス<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><a href="product-list.html">アレンジ</a></li>
+					<li><a href="product-list.html">花束</a></li>
+					<li><a href="product-list.html">花束</a></li>
+					<li><a href="product-list.html">スタンド</a></li>
+					
+				  </ul>
+              </li>
+			  <li role="presentation"><a href="#">フォーチュンフラワー</a></li>
+			  <li role="presentation"><a href="#">書籍</a></li>
+			  <li role="presentation"><a href="resv.html">レッスン</a></li>
+			</ul>
+		</div>
+       <hr>
+<div class="row"></div>
+	<div class="row">
+<center><h2>オンライン予約ページ</h2></center>
+         <div id="wrapper">
+		  <div id="myScheduler"></div>
+		</div><br/><br/>
+         
+          
+          
+          
+        </div>
+           
+    <!-- /.container -->
+
+    <div class="container">
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; 2017 anela Inc. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+<script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
